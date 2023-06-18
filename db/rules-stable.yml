@@ -2167,11 +2167,7 @@ patterns:
       regex: (?:manifest).{0,40}\b([a-zA-z0-9]{32})\b
       confidence: high
   - pattern:
-      name: Mapbox - 1
-      regex: ([a-zA-Z-0-9]{4,32})
-      confidence: high
-  - pattern:
-      name: Mapbox - 2
+      name: Mapbox
       regex: \b(sk\.[a-zA-Z-0-9\.]{80,240})\b
       confidence: high
   - pattern:

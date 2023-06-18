@@ -6377,10 +6377,6 @@ patterns:
       regex: tesco[_-]?api[_-]?key(=| =|:| :)
       confidence: low
   - pattern:
-      name: test
-      regex: test
-      confidence: low
-  - pattern:
       name: test_github_token
       regex: test[_-]?github[_-]?token(=| =|:| :)
       confidence: low

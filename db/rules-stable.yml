@@ -3425,10 +3425,6 @@ patterns:
       regex: \b([A-Za-z0-9]{14}.atlasv1.[A-Za-z0-9]{67})\b
       confidence: high
   - pattern:
-      name: Testdetector
-      regex: \b(test)\b
-      confidence: high
-  - pattern:
       name: Text2data
       regex: (?:text2data).{0,40}\b([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\b
       confidence: high
